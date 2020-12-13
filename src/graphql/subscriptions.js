@@ -7,8 +7,6 @@ export const onCreateTodo = /* GraphQL */ `
       id
       name
       description
-      filePath
-      owner
       createdAt
       updatedAt
     }
@@ -20,8 +18,6 @@ export const onUpdateTodo = /* GraphQL */ `
       id
       name
       description
-      filePath
-      owner
       createdAt
       updatedAt
     }
@@ -33,8 +29,6 @@ export const onDeleteTodo = /* GraphQL */ `
       id
       name
       description
-      filePath
-      owner
       createdAt
       updatedAt
     }

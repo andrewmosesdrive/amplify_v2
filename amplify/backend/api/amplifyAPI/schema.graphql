@@ -1,7 +1,5 @@
 type Todo @model {
   id: ID!
   name: String!
-  description: String!
-  filePath: String!
-  owner: String!
+  description: String
 }

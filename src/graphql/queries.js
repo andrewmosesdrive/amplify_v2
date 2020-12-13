@@ -7,8 +7,6 @@ export const getTodo = /* GraphQL */ `
       id
       name
       description
-      filePath
-      owner
       createdAt
       updatedAt
     }
@@ -25,8 +23,6 @@ export const listTodos = /* GraphQL */ `
         id
         name
         description
-        filePath
-        owner
         createdAt
         updatedAt
       }
